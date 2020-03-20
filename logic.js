@@ -1,6 +1,5 @@
 var $textAreas = $("textarea");
 var $saveBtns = $(".saveBtn");
-var $hours = $(".hour");
 
 var today = moment().format("dddd, MMMM Do YYYY")
 var hour = moment().hour();
@@ -60,7 +59,7 @@ $saveBtns.on("click", function(){
 // check time vs textarea data-time
 $.each(($textAreas), function() {
   var timeData = this.getAttribute("data-time");
-  console.log(this)
+//   console.log(this)
     if (parseInt(timeData) === hour){
         console.log(hour);
         console.log(timeData);

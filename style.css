@@ -67,6 +67,7 @@ textarea{
   background-color: #06AED5;
   color: white;
   border-top: 1px solid white;
+  height: 80px;
 }
 
 .saveBtn i:hover {
@@ -74,6 +75,7 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-
-/* test styles */
+/* i {
+ margin-right: 20px;
+} */
 
